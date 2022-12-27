@@ -1,0 +1,4 @@
+# Lootboxes
+
+To create lootboxes, depending on one or another desired logic, you can use the Pack.sol contract provided by the thirdweb library. The pack contract lets you bundle ERC20, ERC721 and, ERC1155 tokens together into ERC1155 NFTs that act as randomized loot boxes. The packs are ERC1155 NFTs themselves, which can have the metadata you'd expect of an NFT, such as a name, image, description, etc. A good explanation of how Pack.sol works can be found [here](https://github.com/thirdweb-dev/contracts/blob/main/contracts/pack/pack.md).
+The code of the smart contract itself can be found [here](https://github.com/thirdweb-dev/contracts/blob/main/contracts/pack/Pack.sol)
